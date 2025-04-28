@@ -23,4 +23,7 @@ public interface UserServices {
     Optional<UserResponse> getUser(String id);     // look an user by id , are optional if the user don't exist
 
 
+    UserResponse updateUser(String id, UserRegistration request);
+
+    void deleteUser(String id);
 }

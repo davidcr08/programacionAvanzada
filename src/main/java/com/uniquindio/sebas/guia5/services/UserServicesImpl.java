@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @Service
 @RequiredArgsConstructor   // thanks to this sentences lombok , it will generate a constructor with final attributes
-public class UserServicesImpl implements UserServices{
+public abstract class UserServicesImpl implements UserServices{
     /**
      * EN ESTA CLASE SE DEBE IMPLEMENTAR LA INSTERFAZ DEFINIDA PARA LOS SERVICIOS DE USUARIO EN
      * UserServices
